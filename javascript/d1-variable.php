@@ -22,8 +22,43 @@
                 </div>
                 <div class="box-body">
                     <div class="row">
-                        <div class="col-md-8">
-                            body 1
+                        <div class="col-md-2">
+                            <u>10 ar ghorer namota</u> </br>
+                            <script>
+                                var name = "pagla";
+                                var a = 10;
+                                // var b = 2;
+                                // var add = a + b;
+                                // var min = a-b;
+                                // var multi = a*b;
+                                // var div = a/b;
+                                // document.write(add);
+                                // document.write("</br>");
+                                // document.write(min + a);
+                                // document.write("</br>");
+                                for (let a = 1; a <= 10; a++) {
+                                    document.write(a*10);
+                                    document.write("</br>");
+                                }
+                            </script>
+                        </div>
+                        <div class="col-md-2">
+                            <u>9 ar ghorer namota</u> </br>
+                            <script>
+                                for (let b = 1; b <= 10; b++){
+                                    document.write(b*9);
+                                    document.write("</br>");
+                                }
+                            </script>
+                        </div>
+                        <div class="col-md-2">
+                            <u>8 ar ghorer namota</u> </br>
+                            <script>
+                                for (let b = 1; b <= 10; b++){
+                                    document.write(b*8);
+                                    document.write("</br>");
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
