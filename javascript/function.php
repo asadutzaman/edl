@@ -39,13 +39,28 @@
                         <div class="col-md-2">
                             <u>Practice 2</u> </br>
                             <script>
-                                
+                                var height = 59;
+                                function heighttest(){
+                                    message = "Your height is increasing ";
+                                    for (let i = 1; i <= 2; i++){
+                                        document.write(message+height++);
+                                        document.write("</br>");
+                                    }
+                                }
+                                heighttest();
                             </script>
                         </div>
                         <div class="col-md-2">
                             <u>Practice 3</u> </br>
                             <script>
-                                
+                                var weight = 78;
+                                fucntion weightgain(){
+                                    for (let i = 1; i <= 2; i++){
+                                        document.write("weight");
+                                        document.write("</br>");
+                                    }
+                                }
+                                weightgain();
                             </script>
                         </div>
                     </div>
