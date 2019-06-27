@@ -33,6 +33,7 @@
                                 }
                                 human();
                                 document.write("test");
+                                alert(human());
                             </script>
                         </div>
                         <div class="col-md-2">
