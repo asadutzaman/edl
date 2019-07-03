@@ -28,12 +28,10 @@
                                 var name = "test";
                                 var age = 27;
                                 function human(){
-                                    var heis = name+age;
+                                    heis = name+age;
                                     document.write();
                                 }
                                 human();
-                                document.write("test");
-                                alert(human());
                             </script>
                         </div>
                         <div class="col-md-2">
@@ -51,8 +49,8 @@
                             </script>
                         </div>
                         <div class="col-md-2">
-                            <u>Practice 3 -></u>{{name}} </br>
-                            Name:<input type="text" ng-model="name" placeholder="Enter nsme">
+                            <u>Practice 3 -></u>{{test}} </br>
+                            Name:<input type="text" ng-model="test" placeholder="Enter nsme">
                         </div>
                     </div>
                 </div>
