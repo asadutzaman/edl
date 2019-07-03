@@ -1,5 +1,5 @@
 <?php include '../header.php'; ?>
-<div class="content-wrapper">
+<div ng-app="" class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
@@ -51,17 +51,8 @@
                             </script>
                         </div>
                         <div class="col-md-2">
-                            <u>Practice 3</u> </br>
-                            <script>
-                                var weight = 78;
-                                fucntion weightgain(){
-                                    for (let i = 1; i <= 2; i++){
-                                        document.write("weight");
-                                        document.write("</br>");
-                                    }
-                                }
-                                weightgain();
-                            </script>
+                            <u>Practice 3 -></u>{{name}} </br>
+                            Name:<input type="text" ng-model="name" placeholder="Enter nsme">
                         </div>
                     </div>
                 </div>
